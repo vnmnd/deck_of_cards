@@ -43,7 +43,10 @@ describe "Deck" do
     hand = @deck.deal(7)
     (hand[0].rank != 'A' && hand[0].suit != 'hearts' &&
      hand[1].rank != '2' && hand[1].suit != 'hearts' &&
-     hand[2].rank != '2' && hand[2].suit != 'hearts' &&
-     )
+     hand[2].rank != '3' && hand[2].suit != 'hearts' &&
+     hand[3].rank != '4' && hand[3].suit != 'hearts' &&
+     hand[4].rank != '5' && hand[4].suit != 'hearts' &&
+     hand[5].rank != '6' && hand[5].suit != 'hearts' &&
+     hand[6].rank != '7' && hand[6].suit != 'hearts')
   end
 end
